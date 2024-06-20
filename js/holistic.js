@@ -123,7 +123,7 @@ function onResultsHolistic(results) {
 }
 
 const holistic = new Holistic({locateFile: (file) => {
-  return `https://cdn.jsdelivr.net/npm/@mediapipe/holistic@0.1/${file}`;
+  return `https://cdn.jsdelivr.net/npm/@mediapipe/holistic@0.5/${file}`;
 }});
 holistic.onResults(onResultsHolistic);
 
